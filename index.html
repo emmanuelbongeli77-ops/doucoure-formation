@@ -4,50 +4,117 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Doucoure Formation | Apprendre un métier</title>
+<meta name="theme-color" content="#087fe0">
+<title>Doucoure Formation | Formations pratiques</title>
+<meta name="description" content="Guides pratiques en français sur la vidéosurveillance, les réseaux RJ45 et l'éclairage LED.">
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;color:#17324d;background:#f4f9ff;line-height:1.6}
-header{background:#fff;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #dce9f7}
-.logo{font-weight:800;color:#087fe0;font-size:22px}
-.hero{padding:65px 7%;background:linear-gradient(135deg,#087fe0,#65c8ff);color:white}
-.hero h1{font-size:clamp(32px,6vw,52px);line-height:1.15;margin:0 0 18px}
-.hero p{font-size:18px;max-width:620px}
-.btn{display:inline-block;background:#fff;color:#0872cb;padding:13px 20px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:12px}
-main{padding:35px 7%}
-h2{font-size:28px}
-.courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.card{background:white;padding:22px;border-radius:15px;border:1px solid #dfebf7;box-shadow:0 5px 18px #17324d0b}
-.icon{font-size:32px}
-.card h3{margin:8px 0;color:#087fe0}
-.tag{color:#0872cb;font-weight:bold}
-.note{background:#e4f3ff;padding:18px;border-radius:12px}
-footer{background:#102c46;color:white;padding:25px 7%;text-align:center}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:#17324d;background:#f4f9ff;line-height:1.65}
+header{background:#fff;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #dce9f7}
+.logo{font-weight:800;color:#087fe0;font-size:21px}
+header a{color:#0872cb;text-decoration:none;font-weight:bold}
+.hero{padding:58px 7%;background:linear-gradient(135deg,#087fe0,#65c8ff);color:white}
+.hero h1{font-size:clamp(32px,6vw,50px);line-height:1.15;margin:0 0 18px}
+.hero p{font-size:18px;max-width:650px}
+.btn{display:inline-block;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:bold;text-align:center;margin:5px 4px 5px 0}
+.btn-white{background:#fff;color:#0872cb}
+.btn-blue{background:#087fe0;color:white}
+.btn-green{background:#16834a;color:white}
+main{padding:28px 6%;max-width:1100px;margin:auto}
+h2{font-size:27px}
+.courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;padding:22px;border-radius:15px;border:1px solid #dfebf7;box-shadow:0 5px 18px #17324d0b;display:flex;flex-direction:column}
+.icon{font-size:34px}
+.card h3{margin:8px 0;color:#087fe0;font-size:21px}
+.price{font-size:23px;font-weight:800;color:#0872cb;margin:8px 0}
+.card p{flex-grow:1}
+.note{background:#e4f3ff;padding:18px;border-radius:12px;margin:18px 0}
+.payment{background:#fff;padding:20px;border:1px solid #dfebf7;border-radius:14px;margin:12px 0}
+.small{font-size:14px;color:#52677c}
+footer{background:#102c46;color:white;padding:25px 6%;text-align:center}
+footer a{color:#fff}
 </style>
 </head>
 <body>
-<header><div class="logo">Doucoure Formation</div><span>Formations pratiques</span></header>
+<header>
+  <div class="logo">Doucoure Formation</div>
+  <a href="https://wa.me/242053570114?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20formations.">Nous contacter</a>
+</header>
+
 <section class="hero">
-<h1>Apprends un métier.<br>Développe tes compétences.</h1>
-<p>Des guides pratiques en français pour découvrir les installations de caméras, les réseaux et les bases de l'électricité.</p>
-<a class="btn" href="#formations">Découvrir les formations ↓</a>
+  <h1>Apprends un métier.<br>Développe tes compétences.</h1>
+  <p>Des guides pratiques en français pour découvrir les caméras de surveillance, les réseaux et les bases de l'électricité.</p>
+  <a class="btn btn-white" href="#formations">Découvrir les formations ↓</a>
+  <a class="btn btn-white" href="https://wa.me/242053570114?text=Bonjour%20Doucoure%20Formation%2C%20je%20souhaite%20me%20renseigner.">Poser une question</a>
 </section>
+
 <main>
-<h2 id="formations">Nos formations</h2>
-<p>Progresse à ton rythme grâce à des supports pratiques pour débuter.</p>
-<div class="courses">
-<article class="card"><div class="icon">📹</div><h3>Caméras de surveillance</h3><p>Découvre les composants, le DVR, le câblage et les bases de la vidéosurveillance.</p><div class="tag">Guide numérique</div></article>
-<article class="card"><div class="icon">🌐</div><h3>Réseaux et câbles RJ45</h3><p>Comprends les câbles réseau, les connecteurs et les notions essentielles de connexion.</p><div class="tag">Guide numérique</div></article>
-<article class="card"><div class="icon">💡</div><h3>Électricité et éclairage LED</h3><p>Découvre les bases de l'éclairage et les notions de sécurité électrique.</p><div class="tag">Guide numérique</div></article>
-<article class="card"><div class="icon">🧰</div><h3>Multiservices techniques</h3><p>Développe tes connaissances en dépannage et en petits travaux techniques.</p><div class="tag">Guides à venir</div></article>
-</div>
-<h2>Comment ça marche ?</h2>
-<div class="note"><p><b>1.</b> Choisis une formation.</p><p><b>2.</b> Consulte sa description et son prix auprès de Doucoure Formation.</p><p><b>3.</b> Après confirmation de la disponibilité du guide, suis les modalités de commande communiquées.</p></div>
-<h2>Contact et commandes</h2>
-<p>Pour connaître les tarifs, les guides disponibles et les moyens de paiement, contacte le responsable de Doucoure Formation.</p>
-<p><b>À compléter :</b> ajoute ici ton numéro WhatsApp professionnel et tes tarifs avant de promouvoir le site.</p>
-<div class="note">MTN MoMo · Airtel Money · Visa · Mastercard : moyens de paiement envisagés, non encore activés sur ce site.</div>
+  <h2 id="formations">Nos formations</h2>
+  <p>Choisis ton guide et appuie sur « Commander sur WhatsApp » pour demander les modalités de paiement et recevoir les informations de livraison.</p>
+
+  <div class="courses">
+    <article class="card">
+      <div class="icon">📹</div>
+      <h3>Caméras de surveillance et DVR</h3>
+      <p>Découvre les composants, les câbles, le branchement d'un DVR et les bases de la vidéosurveillance.</p>
+      <div class="price">2 500 FCFA</div>
+      <a class="btn btn-green" href="https://wa.me/242053570114?text=Bonjour%2C%20je%20souhaite%20commander%20le%20guide%20Cam%C3%A9ras%20de%20surveillance%20et%20DVR%20%C3%A0%202500%20FCFA.">Commander sur WhatsApp</a>
+    </article>
+
+    <article class="card">
+      <div class="icon">🌐</div>
+      <h3>Réseaux et câbles RJ45</h3>
+      <p>Apprends les notions essentielles sur les câbles réseau, les connecteurs RJ45 et la connexion des équipements.</p>
+      <div class="price">5 000 FCFA</div>
+      <a class="btn btn-green" href="https://wa.me/242053570114?text=Bonjour%2C%20je%20souhaite%20commander%20le%20guide%20R%C3%A9seaux%20et%20c%C3%A2bles%20RJ45%20%C3%A0%205000%20FCFA.">Commander sur WhatsApp</a>
+    </article>
+
+    <article class="card">
+      <div class="icon">💡</div>
+      <h3>Électricité et éclairage LED</h3>
+      <p>Découvre les bases de l'éclairage LED, des spots et les règles essentielles de sécurité électrique.</p>
+      <div class="price">3 500 FCFA</div>
+      <a class="btn btn-green" href="https://wa.me/242053570114?text=Bonjour%2C%20je%20souhaite%20commander%20le%20guide%20%C3%89lectricit%C3%A9%20et%20%C3%A9clairage%20LED%20%C3%A0%203500%20FCFA.">Commander sur WhatsApp</a>
+    </article>
+  </div>
+
+  <h2>Comment ça marche ?</h2>
+  <div class="note">
+    <p><strong>1.</strong> Choisis une formation et consulte son prix.</p>
+    <p><strong>2.</strong> Appuie sur « Commander sur WhatsApp » pour confirmer la disponibilité du guide.</p>
+    <p><strong>3.</strong> Demande les instructions de paiement et la manière dont le guide sera livré avant de payer.</p>
+    <p><strong>4.</strong> Conserve ton reçu de paiement.</p>
+  </div>
+
+  <h2>Moyens de paiement</h2>
+  <div class="payment">
+    <h3>MTN Mobile Money</h3>
+    <p><strong>Numéro :</strong> +242 06 632 4786</p>
+    <p class="small">Confirme le nom du bénéficiaire et le montant avec le responsable avant tout transfert.</p>
+  </div>
+  <div class="payment">
+    <h3>Airtel Money</h3>
+    <p><strong>Numéro :</strong> +242 05 357 0114</p>
+    <p class="small">Confirme le nom du bénéficiaire et le montant avec le responsable avant tout transfert.</p>
+  </div>
+  <div class="payment">
+    <h3>Visa et Mastercard</h3>
+    <p>Le paiement par carte bancaire n'est pas encore disponible sur ce site.</p>
+  </div>
+
+  <h2>Contact et commandes</h2>
+  <div class="note">
+    <p><strong>WhatsApp professionnel :</strong> +242 05 357 0114</p>
+    <a class="btn btn-green" href="https://wa.me/242053570114?text=Bonjour%20Doucoure%20Formation%2C%20je%20souhaite%20des%20informations%20sur%20vos%20guides.">Écrire sur WhatsApp</a>
+    <p class="small">Les boutons ouvrent une conversation WhatsApp. La commande, la confirmation du paiement et la livraison du guide se font séparément pour le moment.</p>
+  </div>
 </main>
-<footer>© Doucoure Formation — Apprendre, pratiquer, progresser.</footer>
+
+<footer>
+  <p><strong>Doucoure Formation</strong></p>
+  <p>Apprendre, pratiquer, progresser.</p>
+  <p>© Doucoure Formation</p>
+</footer>
 </body>
 </html>
